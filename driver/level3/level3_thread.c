@@ -298,7 +298,7 @@ static int inner_thread(blas_arg_t *args, BLASLONG *range_m, BLASLONG *range_n, 
 #endif
       ) return 0;
 
-#if 0
+#if 1
   fprintf(stderr, "Thread[%ld]  m_from : %ld m_to : %ld n_from : %ld n_to : %ld N_from : %ld N_to : %ld\n",
 	  mypos, m_from, m_to, n_from, n_to, N_from, N_to);
 
