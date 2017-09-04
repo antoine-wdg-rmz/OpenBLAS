@@ -270,7 +270,7 @@ int CNAME(blas_arg_t *args, BLASLONG *range_m, BLASLONG *range_n,
 
   l2size = GEMM_P * GEMM_Q;
 
-#if 0
+#if 1
   fprintf(stderr, "GEMM(Single): M_from : %ld  M_to : %ld  N_from : %ld  N_to : %ld  k : %ld\n", m_from, m_to, n_from, n_to, k);
   fprintf(stderr, "GEMM(Single):: P = %4ld  Q = %4ld  R = %4ld\n", (BLASLONG)GEMM_P, (BLASLONG)GEMM_Q, (BLASLONG)GEMM_R);
 	//  fprintf(stderr, "GEMM: SA .. %p  SB .. %p\n", sa, sb);
